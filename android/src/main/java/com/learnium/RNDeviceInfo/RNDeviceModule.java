@@ -121,7 +121,8 @@ public class RNDeviceModule extends ReactContextBaseJavaModule {
             || metrics.densityDpi == DisplayMetrics.DENSITY_HIGH
             || metrics.densityDpi == DisplayMetrics.DENSITY_MEDIUM
             || metrics.densityDpi == DisplayMetrics.DENSITY_TV
-            || metrics.densityDpi == DisplayMetrics.DENSITY_XHIGH) {
+            || metrics.densityDpi == DisplayMetrics.DENSITY_XHIGH
+            || metrics.densityDpi == DisplayMetrics.DENSITY_360) {
       return true;
     }
     return false;
